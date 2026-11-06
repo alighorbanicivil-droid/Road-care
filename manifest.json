@@ -1,34 +1,16 @@
 {
-  "name": "Road Care - سوخت، ناوگان و نگهداری",
+  "name": "Road Care",
   "short_name": "Road Care",
+  "description": "مدیریت سوخت، ناوگان و نگهداری",
   "lang": "fa",
   "dir": "rtl",
-  "start_url": "./",
+  "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#0a1c2b",
-  "theme_color": "#102f45",
+  "background_color": "#0b2a43",
+  "theme_color": "#0b2a43",
   "icons": [
-    {
-      "src": "care-icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "care-icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "care-maskable-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable"
-    }
-  ],
-  "id": "./",
-  "prefer_related_applications": false,
-  "orientation": "any"
+    { "src": "care-icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "care-icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
 }
